@@ -48,5 +48,5 @@ def getMails(rootURL, urlToGo, recDepths): # рекурсивная функци
         return
 
 url1 ="http://www.csd.tsu.ru/"
-getMails(url1,url1,6)
+getMails(url1,url1,3)
 print(mailsSet)
